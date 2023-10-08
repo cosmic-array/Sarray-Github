@@ -44,13 +44,13 @@ function Footer() {
             <span className="line2"></span>
             <span className="crator">Taha Elmoatamid</span>
             <span className="line2"></span>
-            <span className="crator">Mohamed</span>
+            <span className="crator">Mohammed Ouabdrrahmane</span>
             <span className="line2"></span>
-            <span className="crator">Chliyeh</span>
+            <span className="crator">Mohamed Chelhi</span>
             <span className="line2"></span>
-            <span className="crator">Marwa</span>
+            <span className="crator">Marwa Sebai</span>
             <span className="line2"></span>
-            <span className="crator">Badr</span>
+            <span className="crator">Badr eddine elkadiri boutchich </span>
           </div>
         </div>
       </footer>

@@ -4,7 +4,7 @@ import Stars from "../assets/stars";
 
 function Discover() {
   return (
-    <section className="discover">
+    <section className="Discover">
       <Stars />
 
       <div>
