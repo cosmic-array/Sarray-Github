@@ -1,0 +1,120 @@
+canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -99;
+}
+
+.Discover h1 {
+  font-size: 2.6rem;
+  font-weight: 700;
+  max-width: 100%;
+  margin: 0 10vw 0 10vw;
+}
+
+.Discover p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  color: #bdbec2;
+  max-width: 50%;
+  margin: 1rem 10vw 0 10vw;
+}
+
+.Discover img {
+  height: 15rem;
+  width: 30rem;
+  border: 1px solid transparent;
+  border-radius: 1vh;
+}
+
+#learn1,
+#learn2,
+#learn3,
+#learn4{
+  margin: 0 10vw 0 10vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+}
+
+.question {
+  margin: 10vh 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20vh;
+}
+
+@media screen and (max-width: 1600px) {
+  #learn1,
+  #learn3 {
+    display: flex;
+    flex-direction: row;
+    margin: 0 4vw 0 4vw;
+  }
+
+  #learn2 {
+    display: flex;
+    flex-direction: row;
+    margin: 0 4vw 0 0;
+  }
+
+  .Discover p {
+    max-width: 80%;
+  }
+
+  #learn1 img,
+  #learn3 img {
+    margin-bottom: 10vh;
+  }
+
+  #learn2 img #learn4 img {
+    margin-top: 10vh;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #learn1,
+  #learn2,
+  #learn4 img {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Discover p {
+    max-width: 100%;
+  }
+
+  #learn1,
+  #learn2,
+  #learn3 {
+    margin: 0 7vw 0 7vw;
+  }
+
+  #learn1 img,
+  #learn2 img,
+  #learn3 img,
+  #learn4 img {
+    margin-bottom: 10vh;
+  }
+
+  #learn4 img {
+    margin-top: 10vh;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .Discover img {
+    width: 90vw;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .Discover img {
+    display: none;
+  }
+
+  .Discover {
+    gap: 5vh;
+  }
+}

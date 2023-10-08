@@ -1,0 +1,69 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#representation {
+  z-index: 1;
+}
+
+.heading {
+  margin-left: 7%;
+  z-index: 1;
+}
+
+.heading h1 {
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+.heading p {
+  font-family: "Roboto", sans-serif;
+  color: #a4a8bb;
+  max-width: 50%;
+  margin-left: 0.25rem;
+}
+
+.heading button {
+  margin-top: 2rem;
+  height: 2.5rem;
+  width: 10rem;
+  border: 1px solid transparent;
+  border-radius: 0.75vh;
+  font-family: inherit;
+  font-weight: 900;
+  background: #e7f434;
+  transition: 0.5s ease;
+}
+
+.heading button:hover {
+  cursor: pointer;
+  background: #b6c027;
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    flex-direction: column;
+    gap: 10vh;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .heading h1 {
+    font-size: 2.5rem;
+    max-width: 90vw;
+  }
+
+  #representation {
+    display: none;
+  }
+}

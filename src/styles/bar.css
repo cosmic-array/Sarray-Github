@@ -1,0 +1,135 @@
+.bar {
+  height: 5rem;
+  width: 100vw;
+  background: rgb(7, 7, 7);
+  border-bottom: 2px solid rgb(95, 95, 95);
+  display: flex;
+  flex-grow: 3;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 5vw;
+}
+
+.links {
+  margin-left: 5vw;
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+  text-align: left;
+  transition: 0.3s ease;
+}
+
+.nav-link {
+  transition: 0.3s ease;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  color: #3a6edd;
+}
+
+#brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  align-self: center;
+  flex-direction: row;
+}
+
+#brand-logo {
+  justify-self: center;
+  height: 4rem;
+  width: 4rem;
+}
+
+#brand-name {
+  font-family: "Proxima", sans-serif;
+  font-weight: 900;
+}
+
+#dashboard {
+  height: 2rem;
+  margin-right: 5vw;
+  width: 9rem;
+  padding-right: 1.1rem;
+  border: 1px solid transparent;
+  border-radius: 0.75vh;
+  font-family: inherit;
+  font-weight: 900;
+  background: #e7f434;
+  transition: 0.5s ease;
+}
+
+#dashboard:hover {
+  background: #abb428;
+  cursor: pointer;
+}
+
+#wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+
+#hamb {
+  display: none;
+}
+
+.hambu {
+  display: none;
+  font-size: 1.2rem;
+  margin-left: 15px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+@media screen and (max-width: 900px) {
+  .hambu {
+    display: block;
+  }
+
+  .links {
+    width: 100vw;
+    height: fit-content;
+    position: absolute;
+    top: calc(5rem + 1px);
+    left: -120%;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+    background-color: #292929;
+    margin-left: 0;
+    z-index: 3;
+  }
+
+  .nav-link {
+    padding: 20px;
+    font-size: 1.3rem;
+    width: 100vw;
+    text-align: center;
+  }
+
+  .nav-link:hover {
+    color: white;
+    background-color: #3a6edd;
+  }
+
+  #hamb:checked ~ .hambu {
+    rotate: 90deg;
+  }
+
+  #hamb:checked ~ .links {
+    left: 0;
+  }
+
+  #dashboard {
+    width: 8.3rem;
+    padding-right: 9px;
+  }
+}

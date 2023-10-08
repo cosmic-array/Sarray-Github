@@ -1,0 +1,134 @@
+.brand i {
+  color: #fff;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  padding-top: 4vh;
+  padding-bottom: 5vh;
+}
+
+.other {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 3vh;
+}
+
+.line1 {
+  border: 1px solid #333;
+  height: 25vh;
+}
+
+.other img {
+  width: 15vw;
+}
+
+/* This is the contact section */
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.brand {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-around;
+  align-content: space-evenly;
+  gap: 2.5vw;
+}
+
+.brand a {
+  font-size: 1.8rem;
+  transition: 0.5s ease;
+}
+
+.brand a:hover {
+  transform: scale(1.7) translate(0, -8px);
+}
+
+.ig:hover {
+  filter: invert(44%) sepia(25%) saturate(2312%) hue-rotate(304deg)
+    brightness(83%) contrast(91%);
+}
+
+.discord:hover {
+  filter: invert(34%) sepia(38%) saturate(2706%) hue-rotate(218deg)
+    brightness(102%) contrast(90%);
+}
+
+.facebook:hover {
+  filter: invert(35%) sepia(8%) saturate(5012%) hue-rotate(184deg)
+    brightness(86%) contrast(79%);
+}
+
+.git:hover {
+  filter: invert(64%) sepia(87%) saturate(344%) hue-rotate(56deg)
+    brightness(91%) contrast(87%);
+}
+
+.in:hover {
+  filter: invert(24%) sepia(100%) saturate(1789%) hue-rotate(182deg)
+    brightness(96%) contrast(101%);
+}
+
+.gmail:hover {
+  filter: invert(31%) sepia(25%) saturate(5819%) hue-rotate(344deg)
+    brightness(98%) contrast(87%);
+}
+
+hr {
+  text-align: center;
+  width: 80vw;
+  border: 1px solid #444;
+}
+
+.line {
+  margin-bottom: 4vh;
+}
+
+/* this is the creators section */
+
+.names {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.line2 {
+  height: 1.2rem;
+  border: 1px solid #333;
+}
+
+.cb {
+  font-weight: 700;
+}
+
+.crator {
+  font-weight: 100;
+}
+
+@media screen and (max-width: 430px) {
+  .brand a {
+    font-size: 1.2rem;
+  }
+
+  .brand {
+    display: grid;
+    column-count: 2;
+  }
+
+  .brand a:hover {
+    transform: scale(1) translate(0, -8px);
+  }
+}

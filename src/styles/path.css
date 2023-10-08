@@ -1,0 +1,92 @@
+.path {
+  background: #000;
+  border-top: 2px solid rgb(95, 95, 95);
+  padding-bottom: 5px;
+  min-height: 15rem !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30vh !important;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10vw;
+}
+
+.path img {
+  width: 13rem;
+}
+
+.path h1 {
+  max-width: 30vw;
+  font-size: 2rem;
+}
+
+.path button {
+  height: 2rem;
+  width: 11rem;
+  border: 1px solid transparent;
+  font-family: inherit;
+  font-weight: 900;
+  font-size: medium;
+  border-radius: 0.5vh;
+  background: #e7f434;
+  transition: 0.3s ease;
+  z-index: 5;
+}
+
+.path button:hover {
+  cursor: pointer;
+  background: #a1aa24;
+}
+
+@media screen and (max-width: 774px) {
+  .path h1 {
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (max-width: 548px) {
+  /* .path img {
+    width: 11rem;
+  } */
+
+  .path h1 {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 516px) {
+  .path h1 {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .path img {
+    width: 11rem;
+    margin-right: 0.3rem;
+  }
+
+  .path h1 {
+    font-size: 1.3rem;
+  }
+
+  .wrapper {
+    margin-left: 0.5rem;
+  }
+}
+
+/* @media screen and (max-width: 700px) {
+  .path img {
+    display: none;
+  }
+
+  .path h1 {
+    max-width: 90vw;
+  } 
+}*/
