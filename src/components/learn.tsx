@@ -30,7 +30,7 @@ function Learn() {
 
           <div id="question2">
             <div>
-              <h1>What is solar winds ?</h1>
+              <h1>What are solar winds ?</h1>
               <p>
                 Solar winds are charged particles provided by the sun. They are
                 released from the upper atmosphere of the Sun, called Corona.

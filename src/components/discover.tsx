@@ -66,7 +66,7 @@ function Discover() {
                 rays, and dust particles.
               </p>
             </div>
-            <div id="learn4">
+          <div id="learn4">
               <img
                 src="https://media.discordapp.net/attachments/1155245008841097296/1160621260288577605/Mystery_Of_Ultra-Fast_Solar_Flares_Solved_By_Plasma_Physics.jfif?width=600&height=468"
                 alt=""
