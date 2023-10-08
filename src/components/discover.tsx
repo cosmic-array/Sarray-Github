@@ -32,7 +32,7 @@ function Discover() {
 
           <div id="learn2">
             <div>
-              <h1>Types of solar winds:</h1>
+              <h1>Types of solar winds?</h1>
               <p>
                 There are two solar winds: a fast, uniform, and steady wind,
                 blowing at 800 km (500 miles) per second, and a slow, gusty, and
@@ -54,6 +54,8 @@ function Discover() {
           </div>
 
           <div id="learn3">
+            <img src="https://media.discordapp.net/attachments/1155245008841097296/1160621260288577605/Mystery_Of_Ultra-Fast_Solar_Flares_Solved_By_Plasma_Physics.jfif?width=600&height=468" 
+            alt="not found" />
             <div>
               <h1>interplanetary medium</h1>
               <p>
@@ -66,11 +68,12 @@ function Discover() {
                 rays, and dust particles.
               </p>
             </div>
+           </div> 
           <div id="learn4">
-              <img
-                src="https://media.discordapp.net/attachments/1155245008841097296/1160621260288577605/Mystery_Of_Ultra-Fast_Solar_Flares_Solved_By_Plasma_Physics.jfif?width=600&height=468"
-                alt=""
-              />
+            <img
+              src="https://media.discordapp.net/attachments/1155245008841097296/1160643980007055390/71F61730-1AB3-48A3-B473-A5D919C56961.jpg?ex=653568f0&is=6522f3f0&hm=8154f8c20be5bfb02cbb35c4758d9e9a1f6ebe3be6cf3ae2f1e07eac35bb7983&="
+              alt=""/>
+            <div>
               <h1>How does solar wind affect Earth?</h1>
               <p>
                 Solar wind can interact with Earth's magnetic fields and excite
